@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>Hung Duy Distribution - Updates</title>
-        <description>Universal update feed for both iOS and Android</description>
+        <description>Update feed for Hung Duy Distribution app</description>
         <language>vi-VN</language>
         
-        <!-- PHIÊN BẢN MỚI NHẤT: 1.0.1+27 -->
+        <!-- PHIÊN BẢN MỚI: 1.0.1+27 -->
         <item>
             <title>Phiên bản 1.0.1+27</title>
             <description>
                 🎉 Cập nhật mới:
                 • Cải thiện hiệu suất ứng dụng
                 • Sửa lỗi đăng nhập
-                • Tối ưu giao diện
+                • Tối ưu giao diện người dùng
                 • Thêm tính năng quản lý đơn hàng
-                • Hỗ trợ dark mode
+                • Hỗ trợ thông báo push
             </description>
-            <pubDate>Sat, 02 Aug 2025 12:00:00 +0000</pubDate>
+            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             
             <!-- iOS - TestFlight -->
             <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
@@ -24,25 +24,10 @@
                       sparkle:shortVersionString="1.0.1+27"
                       sparkle:os="ios" />
                       
-            <!-- Android - Play Store hoặc custom -->
-            <enclosure url="https://play.google.com/store/apps/details?id=com.hungduy.distribution" 
+            <!-- Android - Play Store (THAY YOUR_PACKAGE_NAME) -->
+            <enclosure url="https://play.google.com/store/apps/details?id=vn.com.hungduy.hung_duy_distribution" 
                       sparkle:version="1.0.1" 
                       sparkle:shortVersionString="1.0.1+27"
-                      sparkle:os="android" />
-        </item>
-        
-        <!-- PHIÊN BẢN HIỆN TẠI: 1.0.0+26 (để tham khảo) -->
-        <item>
-            <title>Phiên bản 1.0.0+26</title>
-            <description>Phiên bản ổn định hiện tại</description>
-            <pubDate>Fri, 01 Aug 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
-                      sparkle:version="1.0.0" 
-                      sparkle:shortVersionString="1.0.0+26"
-                      sparkle:os="ios" />
-            <enclosure url="https://play.google.com/store/apps/details?id=com.hungduy.distribution" 
-                      sparkle:version="1.0.0" 
-                      sparkle:shortVersionString="1.0.0+26"
                       sparkle:os="android" />
         </item>
     </channel>
