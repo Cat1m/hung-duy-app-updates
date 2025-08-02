@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
-        <title>Hung Duy Distribution</title>
-        <description>Updates for Hung Duy Distribution</description>
+        <title>Hung Duy Distribution - Updates</title>
+        <description>Update feed for Hung Duy Distribution app</description>
         <language>vi-VN</language>
         
-        <!-- iOS Version -->
+        <!-- PHIÊN BẢN MỚI: 1.0.1 -->
         <item>
-            <title>Version 1.0.1 (iOS)</title>
+            <title>Phiên bản 1.0.1</title>
             <description><![CDATA[
                 🎉 Cập nhật mới:
                 • Cải thiện hiệu suất ứng dụng
@@ -17,32 +17,15 @@
                 • Hỗ trợ thông báo push
             ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
+            
+            <!-- Dùng chung một enclosure, upgrader sẽ tự detect platform -->
             <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
-                      sparkle:version="1.0.1"
+                      sparkle:version="27"
                       sparkle:shortVersionString="1.0.1"
-                      sparkle:os="ios"
                       type="application/octet-stream"
                       length="0" />
-        </item>
-        
-        <!-- Android Version -->
-        <item>
-            <title>Version 1.0.1 (Android)</title>
-            <description><![CDATA[
-                🎉 Cập nhật mới:
-                • Cải thiện hiệu suất ứng dụng
-                • Sửa lỗi đăng nhập
-                • Tối ưu giao diện người dùng
-                • Thêm tính năng quản lý đơn hàng
-                • Hỗ trợ thông báo push
-            ]]></description>
-            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
-            <enclosure url="https://play.google.com/store/apps/details?id=vn.com.hungduy.hung_duy_distribution" 
-                      sparkle:version="1.0.1"
-                      sparkle:shortVersionString="1.0.1"
-                      sparkle:os="android"
-                      type="application/octet-stream"
-                      length="0" />
+                      
+            <!-- Alternative: Separate items for each platform -->
         </item>
     </channel>
 </rss>
