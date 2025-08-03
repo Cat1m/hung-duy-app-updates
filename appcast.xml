@@ -4,49 +4,82 @@
         <title>Hung Duy Distribution</title>
         <description>Updates for Hung Duy Distribution</description>
         <language>vi-VN</language>
-
-        <!-- Option 1: Single item with generic URL (recommended với custom handler) -->
+        
+        <!-- Method 1: Single item với build number -->
         <item>
-            <title>Version1.0.2</title>
+            <title>Version 1.0.1+28</title>
             <description><![CDATA[
-🎉 Cập nhật mới:
+🎉 Cập nhật build mới:
 • Cải thiện hiệu suất ứng dụng
 • Sửa lỗi đăng nhập
 • Tối ưu giao diện người dùng
-• Thêm tính năng quản lý đơn hàng
-• Hỗ trợ thông báo push
+• Build 28 - Hot fix quan trọng
             ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
-            <!-- Dùng generic URL, custom handler sẽ override -->
             <enclosure url="https://example.com/update" 
-                      sparkle:version="1.0.2"
-                      sparkle:shortVersionString="1.0.2"
+                      sparkle:version="1.0.1+28"
+                      sparkle:shortVersionString="1.0.1"
+                      sparkle:buildNumber="28"
                       type="application/octet-stream"
                       length="0" />
         </item>
 
-        <!-- Option 2: Separate items for each platform (alternative) -->
+        <!-- Method 2: Platform-specific với build numbers -->
         <!--
         <item>
-            <title>Version1.0.2 (iOS)</title>
-            <description><![CDATA[🎉 Cập nhật mới cho iOS]]></description>
+            <title>Version 1.0.1+28 (iOS)</title>
+            <description><![CDATA[
+🍎 Cập nhật iOS:
+• TestFlight build 28
+• Sửa lỗi crash trên iOS 17
+• Cải thiện performance
+            ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
-                      sparkle:version="1.0.1"
+                      sparkle:version="1.0.1+28"
                       sparkle:shortVersionString="1.0.1"
+                      sparkle:buildNumber="28"
                       sparkle:os="ios"
                       type="application/octet-stream"
                       length="0" />
         </item>
-
+        
         <item>
-            <title>Version1.0.2 (Android)</title>
-            <description><![CDATA[🎉 Cập nhật mới cho Android]]></description>
+            <title>Version 1.0.1+28 (Android)</title>
+            <description><![CDATA[
+🤖 Cập nhật Android:
+• Internal testing build 28
+• Sửa lỗi ANR
+• Tối ưu battery usage
+            ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://play.google.com/store/apps/details?id=vn.com.hungduy.hung_duy_distribution" 
-                      sparkle:version="1.0.1"
+                      sparkle:version="1.0.1+28"
                       sparkle:shortVersionString="1.0.1"
+                      sparkle:buildNumber="28"
                       sparkle:os="android"
+                      type="application/octet-stream"
+                      length="0" />
+        </item>
+        -->
+
+        <!-- Method 3: Separate build tracking -->
+        <!--
+        <item>
+            <title>Build 28 Update</title>
+            <description><![CDATA[
+🔧 Internal Build Update:
+• Version: 1.0.1
+• Build: 28
+• Platform: Universal
+• Type: Hot fix
+            ]]></description>
+            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
+            <enclosure url="https://example.com/update" 
+                      sparkle:version="28"
+                      sparkle:shortVersionString="1.0.1+28"
+                      sparkle:buildNumber="28"
+                      sparkle:compareType="buildNumber"
                       type="application/octet-stream"
                       length="0" />
         </item>
