@@ -4,10 +4,10 @@
         <title>Hung Duy Distribution</title>
         <description>Updates for Hung Duy Distribution</description>
         <language>vi-VN</language>
-        
+
         <!-- Option 1: Single item with generic URL (recommended với custom handler) -->
         <item>
-            <title>Version 1.0.1+28</title>
+            <title>Version1.0.2</title>
             <description><![CDATA[
 🎉 Cập nhật mới:
 • Cải thiện hiệu suất ứng dụng
@@ -16,36 +16,36 @@
 • Thêm tính năng quản lý đơn hàng
 • Hỗ trợ thông báo push
             ]]></description>
-            <pubDate>Sat, 03 Aug 2025 15:00:00 +0000</pubDate>
+            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <!-- Dùng generic URL, custom handler sẽ override -->
             <enclosure url="https://example.com/update" 
-                      sparkle:version="1.0.1+28"
-                      sparkle:shortVersionString="1.0.1+28"
+                      sparkle:version="1.0.2"
+                      sparkle:shortVersionString="1.0.2"
                       type="application/octet-stream"
                       length="0" />
         </item>
-        
+
         <!-- Option 2: Separate items for each platform (alternative) -->
         <!--
         <item>
-            <title>Version 1.0.1+28 (iOS)</title>
+            <title>Version1.0.2 (iOS)</title>
             <description><![CDATA[🎉 Cập nhật mới cho iOS]]></description>
-            <pubDate>Sat, 03 Aug 2025 15:00:00 +0000</pubDate>
+            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
-                      sparkle:version="1.0.1+28"
-                      sparkle:shortVersionString="1.0.1+28"
+                      sparkle:version="1.0.1"
+                      sparkle:shortVersionString="1.0.1"
                       sparkle:os="ios"
                       type="application/octet-stream"
                       length="0" />
         </item>
-        
+
         <item>
-            <title>Version 1.0.1+28 (Android)</title>
+            <title>Version1.0.2 (Android)</title>
             <description><![CDATA[🎉 Cập nhật mới cho Android]]></description>
-            <pubDate>Sat, 03 Aug 2025 15:00:00 +0000</pubDate>
+            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://play.google.com/store/apps/details?id=vn.com.hungduy.hung_duy_distribution" 
-                      sparkle:version="1.0.1+28"
-                      sparkle:shortVersionString="1.0.1+28"
+                      sparkle:version="1.0.1"
+                      sparkle:shortVersionString="1.0.1"
                       sparkle:os="android"
                       type="application/octet-stream"
                       length="0" />
