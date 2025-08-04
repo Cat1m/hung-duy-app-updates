@@ -5,15 +5,20 @@
         <description>Updates for Hung Duy Distribution</description>
         <language>vi-VN</language>
         
-        <!-- Method 1: Single item với build number -->
+        <!-- CURRENT BUILD: 28 -->
         <item>
-            <title>Version 1.0.1+28</title>
+            <title>Version 1.0.1+28 - Hot Fix</title>
             <description><![CDATA[
 🎉 Cập nhật build mới:
 • Cải thiện hiệu suất ứng dụng
 • Sửa lỗi đăng nhập
 • Tối ưu giao diện người dùng
 • Build 28 - Hot fix quan trọng
+
+📱 Version: 1.0.1
+🔧 Build: 28
+📅 Release: 2025-08-02
+⚡ Type: Critical Bug Fix
             ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://example.com/update" 
@@ -23,16 +28,40 @@
                       type="application/octet-stream"
                       length="0" />
         </item>
+        
+        <!-- PREVIOUS BUILD for reference -->
+        <item>
+            <title>Version 1.0.1+27</title>
+            <description><![CDATA[
+🔄 Previous build:
+• Version: 1.0.1
+• Build: 27
+• Previous stable release
+            ]]></description>
+            <pubDate>Fri, 01 Aug 2025 10:00:00 +0000</pubDate>
+            <enclosure url="https://example.com/update" 
+                      sparkle:version="1.0.1+27"
+                      sparkle:shortVersionString="1.0.1"
+                      sparkle:buildNumber="27"
+                      type="application/octet-stream"
+                      length="0" />
+        </item>
 
-        <!-- Method 2: Platform-specific với build numbers -->
+        <!-- 
+        ================================
+        ALTERNATIVE APPROACH - Platform Specific
+        ================================
+        Uncomment this section if you want platform-specific updates
+        -->
         <!--
         <item>
-            <title>Version 1.0.1+28 (iOS)</title>
+            <title>iOS Build 28 - TestFlight</title>
             <description><![CDATA[
-🍎 Cập nhật iOS:
+🍎 iOS Update:
 • TestFlight build 28
-• Sửa lỗi crash trên iOS 17
-• Cải thiện performance
+• Fixed iOS 17 compatibility issues  
+• Improved push notifications
+• Enhanced battery optimization
             ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://testflight.apple.com/join/FRjPt2Dk" 
@@ -45,12 +74,13 @@
         </item>
         
         <item>
-            <title>Version 1.0.1+28 (Android)</title>
+            <title>Android Build 28 - Internal Testing</title>
             <description><![CDATA[
-🤖 Cập nhật Android:
+🤖 Android Update:
 • Internal testing build 28
-• Sửa lỗi ANR
-• Tối ưu battery usage
+• Fixed ANR issues
+• Improved memory management
+• Better offline support
             ]]></description>
             <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
             <enclosure url="https://play.google.com/store/apps/details?id=vn.com.hungduy.hung_duy_distribution" 
@@ -63,23 +93,26 @@
         </item>
         -->
 
-        <!-- Method 3: Separate build tracking -->
+        <!--
+        ================================
+        TESTING BUILDS - For Internal Use
+        ================================
+        Use these for testing different build numbers quickly
+        -->
         <!--
         <item>
-            <title>Build 28 Update</title>
+            <title>Test Build 30</title>
             <description><![CDATA[
-🔧 Internal Build Update:
+🧪 TEST BUILD - DO NOT USE IN PRODUCTION
 • Version: 1.0.1
-• Build: 28
-• Platform: Universal
-• Type: Hot fix
+• Build: 30
+• For testing build number comparison only
             ]]></description>
-            <pubDate>Sat, 02 Aug 2025 15:00:00 +0000</pubDate>
-            <enclosure url="https://example.com/update" 
-                      sparkle:version="28"
-                      sparkle:shortVersionString="1.0.1+28"
-                      sparkle:buildNumber="28"
-                      sparkle:compareType="buildNumber"
+            <pubDate>Sun, 03 Aug 2025 10:00:00 +0000</pubDate>
+            <enclosure url="https://example.com/test-update" 
+                      sparkle:version="1.0.1+30"
+                      sparkle:shortVersionString="1.0.1"
+                      sparkle:buildNumber="30"
                       type="application/octet-stream"
                       length="0" />
         </item>
